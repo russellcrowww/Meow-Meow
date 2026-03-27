@@ -1,7 +1,6 @@
-from .cat import Cat
-from .action import Action
-from .inventory import Inventory
-from .items import Item
+from .client import Client
+from .staff import Staff
+from .appointment import Appointment
+from .service import Service
 
-
-__all__ = ["Cat", "Action","Inventory", "Item"]
+__all__ = ["Client", "Staff", "Service", "Appointment"]
